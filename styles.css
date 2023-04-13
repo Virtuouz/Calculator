@@ -25,6 +25,7 @@ body{
     background-color: #eee;
     flex-shrink: 0;
     margin-bottom: 2vh;
+    box-shadow: inset 0 0 10px #5c5c5c;
 }
 
 .row{
@@ -33,13 +34,28 @@ body{
 }
 
 .row button{
-    background-color: rebeccapurple;
+    background-color: rgb(44, 24, 65);
     width: 4vw;
     height: 6vh;
     margin: 3px;
     flex:1;
+    color: rgb(145, 193, 248);
+    font-size: 2rem;
+    border-radius: 7%;
+    border-color: black;
+    border-width: 5px;
 }
 
 .row .btn-long{
     flex: 2.3;
+}
+
+#equals{
+    background-color: #184140;
+}
+.row .util{
+    background-color: #411818;
+}
+.row .oper{
+    background-color: #2D4118;
 }
